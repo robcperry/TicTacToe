@@ -1,0 +1,65 @@
+html *{
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #7e4472;
+    color: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);
+}
+body{
+    margin-left: 5%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    margin-top: 3%;
+   
+}
+h1{
+    font-size: 4rem;
+    
+}
+button{
+    margin-left: 5%;
+    font-size: 3rem;
+    
+}
+p{
+    font-size: 6rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+   
+    
+}
+.col{
+    border: 1px solid black;
+    width: 10%;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.box-content{
+       display: flex;
+       width: 50%;
+       height: 100%;
+       margin: auto;
+       align-items:center;
+       justify-content:center;
+
+}
+
+
+@media(max-width: 900px) {
+    .col{
+        width: 23%;
+        aspect-ratio: 1;
+    }
+    html {
+        font-size: 40.5%;
+    }
+    h1{
+        font-size: 5rem;
+    }
+}
